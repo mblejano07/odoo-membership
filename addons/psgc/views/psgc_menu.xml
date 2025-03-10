@@ -1,0 +1,9 @@
+<odoo>
+    <menuitem id="psgc_menu" name="PSGC" sequence="10"/>
+
+    <!-- Provinces -->
+    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" action="province_action"/>
+    
+    <!-- Regions -->
+    <menuitem id="region_menu" name="Regions" parent="psgc_menu" action="region_action"/>
+</odoo>

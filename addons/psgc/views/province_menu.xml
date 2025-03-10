@@ -1,0 +1,3 @@
+<odoo>
+    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" action="province_action"/>
+</odoo>

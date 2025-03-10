@@ -7,7 +7,7 @@
         This module adds a Many2many field to the Event form to link
         to Membership Products.
     """,
-    'author': 'Your Name',
+    'author': 'Michael Lejano',
     'depends': ['event', 'product'],  # Depends on event and product modules
     'data': [
         'views/event_view.xml',  # Include the custom view
