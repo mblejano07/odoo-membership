@@ -8,7 +8,7 @@
                 <sheet>
                     <group>
                         <field name="name"/>
-                        <field name="code"/>
+                        <field name="province_code"/>
                         <field name="geo_level"/>
                         <field name="old_name"/>
                         <field name="income_classification"/>
@@ -26,7 +26,7 @@
             <list string="Provinces">
                 <field name="code_correspondence"/>
                 <field name="name"/>
-                <field name="code"/>
+                <field name="province_code"/>
                 <field name="geo_level"/>
                 <field name="income_classification"/>
                 <field name="region_id"/>

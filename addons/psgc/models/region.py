@@ -7,6 +7,6 @@ class Region(models.Model):
     code_correspondence = fields.Char('Code Correspondence')
     name = fields.Char('Region Name', required=True)
     altName = fields.Char('Alternate Name')
-    code = fields.Char('Region Code')
+    region_code = fields.Char('Region Code')
     geo_level = fields.Char('Geo Level')
     remarks = fields.Char('Remarks')

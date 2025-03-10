@@ -9,7 +9,7 @@
                     <group>
                         <field name="name"/>
                         <field name="altName"/>
-                        <field name="code"/>
+                        <field name="region_code"/>
                         <field name="geo_level"/>
                         <field name="remarks"/>
                     </group>
@@ -27,7 +27,7 @@
                 <field name="code_correspondence"/>
                 <field name="name"/>
                 <field name="altName"/>
-                <field name="code"/>
+                <field name="region_code"/>
                 <field name="geo_level"/>
                 <field name="remarks"/>
             </list>

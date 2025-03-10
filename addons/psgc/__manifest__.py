@@ -9,7 +9,10 @@
     'author': 'Michael Lejano',
     'depends': ['base'],  # Depends on event and product modules
     'data': [
+        'data/region.xml',
         'views/psgc_menu.xml',
+        'views/region_action.xml',
+        'views/province_action.xml',
         'views/region_form.xml',
         'views/province_form.xml',
         'security/ir.model.access.csv',

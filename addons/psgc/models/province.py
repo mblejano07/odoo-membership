@@ -7,7 +7,7 @@ class Province(models.Model):
     id = fields.Char(string='ID', required=True)  # Or you can use Integer if necessary
     code_correspondence = fields.Char(string='Code Correspondence')
     name = fields.Char(string='Province Name', required=True)
-    code = fields.Char(string='Province Code', required=True)
+    province_code = fields.Char(string='Province Code', required=True)
     geo_level = fields.Char(string='Geographical Level')
     old_name = fields.Char(string='Old Name')
     income_classification = fields.Selection([

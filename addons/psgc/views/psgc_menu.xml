@@ -16,7 +16,8 @@
 
     <!-- Menu Items -->
     <menuitem id="psgc_menu" name="PSGC" sequence="1"/>
-    <menuitem id="region_menu" name="Regions" parent="psgc_menu" sequence="1"/>
-    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" sequence="2"/>
+    <menuitem id="region_menu" name="Regions" parent="psgc_menu" sequence="1" action="psgc.region_action"/>
+    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" sequence="2" action="psgc.province_action"/>
+
 
 </odoo>
