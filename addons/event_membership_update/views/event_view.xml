@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <!-- Inherit the existing event form view -->
+        <record id="view_event_form" model="ir.ui.view">
+            <field name="name">event.event.form.custom</field>
+            <field name="model">event.event</field>
+            <field name="inherit_id" ref="event.view_event_form"/> <!-- Correct reference here -->
+            <field name="arch" type="xml">
+                <!-- Add the custom field after the tag_ids field -->
+                <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field name="custom_field"/>
+                    <field name="membership_product_ids" 
+                           widget="many2many_tags" 
+                           options="{'no_create': True}" 
+                           placeholder="Select Memberships"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
