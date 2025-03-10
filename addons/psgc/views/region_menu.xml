@@ -1,3 +1,0 @@
-<odoo>
-    <menuitem id="region_menu" name="Regions" parent="psgc_menu" action="region_action"/>
-</odoo>

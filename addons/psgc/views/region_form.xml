@@ -1,20 +1,36 @@
 <odoo>
+    <!-- Form View for Region -->
     <record id="view_region_form" model="ir.ui.view">
-        <field name="name">region.form</field>
-        <field name="model">region</field>
+        <field name="name">psgc.region.form</field>
+        <field name="model">psgc.region</field>
         <field name="arch" type="xml">
             <form string="Region">
                 <sheet>
                     <group>
-                        <field name="code_correspondence"/>
                         <field name="name"/>
+                        <field name="altName"/>
                         <field name="code"/>
                         <field name="geo_level"/>
-                        <field name="old_name"/>
-                        <field name="income_classification"/>
+                        <field name="remarks"/>
                     </group>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+    <!-- Tree View for Region -->
+    <record id="view_region_tree" model="ir.ui.view">
+        <field name="name">psgc.region.tree</field>
+        <field name="model">psgc.region</field>
+        <field name="arch" type="xml">
+            <list string="Regions">
+                <field name="code_correspondence"/>
+                <field name="name"/>
+                <field name="altName"/>
+                <field name="code"/>
+                <field name="geo_level"/>
+                <field name="remarks"/>
+            </list>
         </field>
     </record>
 </odoo>

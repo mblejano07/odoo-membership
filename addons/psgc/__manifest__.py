@@ -8,22 +8,12 @@
     """,
     'author': 'Michael Lejano',
     'depends': ['base'],  # Depends on event and product modules
-     'data': [
-        'data/region_data.csv',
-        'data/province_data.csv',
-        'views/region_view.xml',
-        'views/province_view.xml',
+    'data': [
         'views/psgc_menu.xml',
-        'views/province_form.xml',
-        'views/province_tree.xml',
-        'views/province_action.xml',
         'views/region_form.xml',
-        'views/region_tree.xml',
-        'views/region_action.xml',
-        'views/province_menu.xml',
-        'views/region_menu.xml',
-        'ir.model.access.csv',  # Add the access control file
+        'views/province_form.xml',
+        'security/ir.model.access.csv',
     ],
     'installable': True,
-    'application': False,
+    'application': True,
 }

@@ -1,7 +1,7 @@
 from odoo import models, fields
 
 class Province(models.Model):
-    _name = 'province'
+    _name = 'psgc.province'
     _description = 'Province'
 
     id = fields.Char(string='ID', required=True)  # Or you can use Integer if necessary

@@ -1,9 +1,22 @@
 <odoo>
-    <menuitem id="psgc_menu" name="PSGC" sequence="10"/>
+    <!-- Actions for region and province -->
+    <record id="psgc.region_action" model="ir.actions.act_window">
+        <field name="name">Regions</field>
+        <field name="res_model">psgc.region</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+    </record>
 
-    <!-- Provinces -->
-    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" action="province_action"/>
-    
-    <!-- Regions -->
-    <menuitem id="region_menu" name="Regions" parent="psgc_menu" action="region_action"/>
+    <record id="psgc.province_action" model="ir.actions.act_window">
+        <field name="name">Provinces</field>
+        <field name="res_model">psgc.province</field>
+        <field name="view_mode">tree,form</field>
+        <field name="target">current</field>
+    </record>
+
+    <!-- Menu Items -->
+    <menuitem id="psgc_menu" name="PSGC" sequence="1"/>
+    <menuitem id="region_menu" name="Regions" parent="psgc_menu" sequence="1"/>
+    <menuitem id="province_menu" name="Provinces" parent="psgc_menu" sequence="2"/>
+
 </odoo>
