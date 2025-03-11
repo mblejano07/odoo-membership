@@ -8,6 +8,7 @@
         to Membership Products.
     """,
     'author': 'Michael Lejano',
+    'company': 'Blackpearl Technology Solutions Corporation',
     'depends': ['event', 'product'],  # Depends on event and product modules
     'data': [
         'views/event_view.xml',  # Include the custom view

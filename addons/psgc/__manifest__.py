@@ -7,9 +7,11 @@
         This modules is created for Region Province City and Barangay in the Philippines
     """,
     'author': 'Michael Lejano',
+    'company': 'Blackpearl Technology Solutions Corporation',
     'depends': ['base'],  # Depends on event and product modules
     'data': [
         'data/region.xml',
+        'data/province.xml',
         'views/psgc_menu.xml',
         'views/region_action.xml',
         'views/province_action.xml',

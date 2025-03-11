@@ -92,5 +92,33 @@
             <field name="region_code">120000000</field>
             <field name="geo_level">Reg</field>
         </record>
+        <record id="41" model="psgc.region">
+            <field name="code_correspondence">1300000000</field>
+            <field name="name">National Capital Region (NCR)</field>
+            <field name="altName">NCR</field>
+            <field name="region_code">130000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="44" model="psgc.region">
+            <field name="code_correspondence">1400000000</field>
+            <field name="name">Cordillera Administrative Region (CAR)</field>
+            <field name="altName">CAR</field>
+            <field name="region_code">140000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="47" model="psgc.region">
+            <field name="code_correspondence">1600000000</field>
+            <field name="name">Region XIII (Caraga)</field>
+            <field name="altName">CARAGA</field>
+            <field name="region_code">160000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="50" model="psgc.region">
+            <field name="code_correspondence">1900000000</field>
+            <field name="name">Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)</field>
+            <field name="altName">BARMM</field>
+            <field name="region_code">150000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
     </data>
 </odoo>
