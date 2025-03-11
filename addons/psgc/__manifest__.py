@@ -12,11 +12,14 @@
     'data': [
         'data/region.xml',
         'data/province.xml',
-        'views/psgc_menu.xml',
-        'views/region_action.xml',
-        'views/province_action.xml',
+        'data/city.xml',
         'views/region_form.xml',
         'views/province_form.xml',
+        'views/city_form.xml',   # ✅ Load city form first
+        'views/psgc_menu.xml',
+        'views/city_action.xml', # ✅ Load city action after
+        'views/region_action.xml',
+        'views/province_action.xml',
         'security/ir.model.access.csv',
     ],
     'installable': True,
