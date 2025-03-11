@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <odoo>
     <data noupdate="1">
         <record id="3" model="psgc.province">
@@ -5,283 +6,304 @@
             <field name="name">Ilocos Norte</field>
             <field name="province_code">012800000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">010000000</field>
             <field name="region_correspondence">0100000000</field>
             <field name="region_id" ref="2"/>
         </record>
-
         <record id="6" model="psgc.province">
             <field name="code_correspondence">0102900000</field>
             <field name="name">Ilocos Sur</field>
             <field name="province_code">012900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">010000000</field>
             <field name="region_correspondence">0100000000</field>
             <field name="region_id" ref="2"/>
         </record>
-
         <record id="9" model="psgc.province">
             <field name="code_correspondence">0103300000</field>
             <field name="name">La Union</field>
             <field name="province_code">013300000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">010000000</field>
             <field name="region_correspondence">0100000000</field>
             <field name="region_id" ref="2"/>
         </record>
-
         <record id="12" model="psgc.province">
             <field name="code_correspondence">0105500000</field>
             <field name="name">Pangasinan</field>
             <field name="province_code">015500000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">010000000</field>
             <field name="region_correspondence">0100000000</field>
             <field name="region_id" ref="2"/>
         </record>
-
         <record id="15" model="psgc.province">
             <field name="code_correspondence">0200900000</field>
             <field name="name">Batanes</field>
             <field name="province_code">020900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">5th</field>
             <field name="region_code">020000000</field>
             <field name="region_correspondence">0200000000</field>
             <field name="region_id" ref="5"/>
         </record>
-
         <record id="18" model="psgc.province">
             <field name="code_correspondence">0201500000</field>
             <field name="name">Cagayan</field>
             <field name="province_code">021500000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">020000000</field>
             <field name="region_correspondence">0200000000</field>
             <field name="region_id" ref="5"/>
         </record>
-
         <record id="21" model="psgc.province">
             <field name="code_correspondence">0203100000</field>
             <field name="name">Isabela</field>
             <field name="province_code">023100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">020000000</field>
             <field name="region_correspondence">0200000000</field>
             <field name="region_id" ref="5"/>
         </record>
-
         <record id="24" model="psgc.province">
             <field name="code_correspondence">0205000000</field>
             <field name="name">Nueva Vizcaya</field>
             <field name="province_code">025000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">020000000</field>
             <field name="region_correspondence">0200000000</field>
             <field name="region_id" ref="5"/>
         </record>
-		<record id="27" model="psgc.province">
-            <field name="code_correspondence">025700000</field>
+        <record id="27" model="psgc.province">
+            <field name="code_correspondence">0205700000</field>
             <field name="name">Quirino</field>
             <field name="province_code">025700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">020000000</field>
             <field name="region_correspondence">0200000000</field>
             <field name="region_id" ref="5"/>
         </record>
         <record id="30" model="psgc.province">
-            <field name="code_correspondence">030800000</field>
+            <field name="code_correspondence">0300800000</field>
             <field name="name">Bataan</field>
             <field name="province_code">030800000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="33" model="psgc.province">
-            <field name="code_correspondence">031400000</field>
+            <field name="code_correspondence">0301400000</field>
             <field name="name">Bulacan</field>
             <field name="province_code">031400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="36" model="psgc.province">
-            <field name="code_correspondence">034900000</field>
+            <field name="code_correspondence">0304900000</field>
             <field name="name">Nueva Ecija</field>
             <field name="province_code">034900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="39" model="psgc.province">
-            <field name="code_correspondence">035400000</field>
+            <field name="code_correspondence">0305400000</field>
             <field name="name">Pampanga</field>
             <field name="province_code">035400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="42" model="psgc.province">
-            <field name="code_correspondence">036900000</field>
+            <field name="code_correspondence">0306900000</field>
             <field name="name">Tarlac</field>
             <field name="province_code">036900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="45" model="psgc.province">
-            <field name="code_correspondence">037100000</field>
+            <field name="code_correspondence">0307100000</field>
             <field name="name">Zambales</field>
             <field name="province_code">037100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="48" model="psgc.province">
-            <field name="code_correspondence">037700000</field>
+            <field name="code_correspondence">0307700000</field>
             <field name="name">Aurora</field>
             <field name="province_code">037700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">030000000</field>
             <field name="region_correspondence">0300000000</field>
             <field name="region_id" ref="8"/>
         </record>
         <record id="51" model="psgc.province">
-            <field name="code_correspondence">041000000</field>
+            <field name="code_correspondence">0401000000</field>
             <field name="name">Batangas</field>
             <field name="province_code">041000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">040000000</field>
             <field name="region_correspondence">0400000000</field>
             <field name="region_id" ref="11"/>
         </record>
-		<record id="54" model="psgc.province">
-            <field name="code_correspondence">042100000</field>
+        <record id="54" model="psgc.province">
+            <field name="code_correspondence">0402100000</field>
             <field name="name">Cavite</field>
             <field name="province_code">042100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">040000000</field>
             <field name="region_correspondence">0400000000</field>
             <field name="region_id" ref="11"/>
         </record>
         <record id="57" model="psgc.province">
-            <field name="code_correspondence">043400000</field>
+            <field name="code_correspondence">0403400000</field>
             <field name="name">Laguna</field>
             <field name="province_code">043400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">040000000</field>
             <field name="region_correspondence">0400000000</field>
             <field name="region_id" ref="11"/>
         </record>
         <record id="60" model="psgc.province">
-            <field name="code_correspondence">045600000</field>
+            <field name="code_correspondence">0405600000</field>
             <field name="name">Quezon</field>
             <field name="province_code">045600000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">040000000</field>
             <field name="region_correspondence">0400000000</field>
             <field name="region_id" ref="11"/>
         </record>
         <record id="63" model="psgc.province">
-            <field name="code_correspondence">045800000</field>
+            <field name="code_correspondence">0405800000</field>
             <field name="name">Rizal</field>
             <field name="province_code">045800000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">040000000</field>
             <field name="region_correspondence">0400000000</field>
             <field name="region_id" ref="11"/>
         </record>
         <record id="66" model="psgc.province">
-            <field name="code_correspondence">174000000</field>
+            <field name="code_correspondence">1704000000</field>
             <field name="name">Marinduque</field>
             <field name="province_code">174000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">4th</field>
             <field name="region_code">170000000</field>
             <field name="region_correspondence">1700000000</field>
             <field name="region_id" ref="14"/>
         </record>
         <record id="69" model="psgc.province">
-            <field name="code_correspondence">175100000</field>
+            <field name="code_correspondence">1705100000</field>
             <field name="name">Occidental Mindoro</field>
             <field name="province_code">175100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">170000000</field>
             <field name="region_correspondence">1700000000</field>
             <field name="region_id" ref="14"/>
         </record>
         <record id="72" model="psgc.province">
-            <field name="code_correspondence">175200000</field>
+            <field name="code_correspondence">1705200000</field>
             <field name="name">Oriental Mindoro</field>
             <field name="province_code">175200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">170000000</field>
             <field name="region_correspondence">1700000000</field>
             <field name="region_id" ref="14"/>
         </record>
         <record id="75" model="psgc.province">
-            <field name="code_correspondence">175300000</field>
+            <field name="code_correspondence">1705300000</field>
             <field name="name">Palawan</field>
             <field name="province_code">175300000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">170000000</field>
             <field name="region_correspondence">1700000000</field>
             <field name="region_id" ref="14"/>
         </record>
         <record id="78" model="psgc.province">
-            <field name="code_correspondence">175900000</field>
+            <field name="code_correspondence">1705900000</field>
             <field name="name">Romblon</field>
             <field name="province_code">175900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">170000000</field>
             <field name="region_correspondence">1700000000</field>
             <field name="region_id" ref="14"/>
         </record>
         <record id="81" model="psgc.province">
-            <field name="code_correspondence">050500000</field>
+            <field name="code_correspondence">0500500000</field>
             <field name="name">Albay</field>
             <field name="province_code">050500000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
             <field name="region_id" ref="17"/>
         </record>
-		<record id="84" model="psgc.province">
+        <record id="84" model="psgc.province">
             <field name="code_correspondence">0501600000</field>
             <field name="name">Camarines Norte</field>
             <field name="province_code">051600000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
@@ -292,6 +314,7 @@
             <field name="name">Camarines Sur</field>
             <field name="province_code">051700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
@@ -302,6 +325,7 @@
             <field name="name">Catanduanes</field>
             <field name="province_code">052000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
@@ -312,6 +336,7 @@
             <field name="name">Masbate</field>
             <field name="province_code">054100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
@@ -322,6 +347,7 @@
             <field name="name">Sorsogon</field>
             <field name="province_code">056200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">050000000</field>
             <field name="region_correspondence">0500000000</field>
@@ -332,6 +358,7 @@
             <field name="name">Aklan</field>
             <field name="province_code">060400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -342,6 +369,7 @@
             <field name="name">Antique</field>
             <field name="province_code">060600000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -352,6 +380,7 @@
             <field name="name">Capiz</field>
             <field name="province_code">061900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -362,6 +391,7 @@
             <field name="name">Iloilo</field>
             <field name="province_code">063000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -372,6 +402,7 @@
             <field name="name">Negros Occidental</field>
             <field name="province_code">064500000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -382,6 +413,7 @@
             <field name="name">Guimaras</field>
             <field name="province_code">067900000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">4th</field>
             <field name="region_code">060000000</field>
             <field name="region_correspondence">0600000000</field>
@@ -392,6 +424,7 @@
             <field name="name">Bohol</field>
             <field name="province_code">071200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">070000000</field>
             <field name="region_correspondence">0700000000</field>
@@ -402,6 +435,7 @@
             <field name="name">Cebu</field>
             <field name="province_code">072200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">070000000</field>
             <field name="region_correspondence">0700000000</field>
@@ -412,16 +446,18 @@
             <field name="name">Negros Oriental</field>
             <field name="province_code">074600000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">070000000</field>
             <field name="region_correspondence">0700000000</field>
             <field name="region_id" ref="23"/>
         </record>
-		<record id="126" model="psgc.province">
+        <record id="126" model="psgc.province">
             <field name="code_correspondence">0706100000</field>
             <field name="name">Siquijor</field>
             <field name="province_code">076100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">5th</field>
             <field name="region_code">070000000</field>
             <field name="region_correspondence">0700000000</field>
@@ -432,6 +468,7 @@
             <field name="name">Eastern Samar</field>
             <field name="province_code">082600000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -442,6 +479,7 @@
             <field name="name">Leyte</field>
             <field name="province_code">083700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -452,6 +490,7 @@
             <field name="name">Northern Samar</field>
             <field name="province_code">084800000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -462,6 +501,7 @@
             <field name="name">Samar</field>
             <field name="province_code">086000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name">Western Samar</field>
             <field name="income_classification">1st</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -472,6 +512,7 @@
             <field name="name">Southern Leyte</field>
             <field name="province_code">086400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -482,6 +523,7 @@
             <field name="name">Biliran</field>
             <field name="province_code">087800000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">4th</field>
             <field name="region_code">080000000</field>
             <field name="region_correspondence">0800000000</field>
@@ -492,6 +534,7 @@
             <field name="name">Zamboanga del Norte</field>
             <field name="province_code">097200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">090000000</field>
             <field name="region_correspondence">0900000000</field>
@@ -502,6 +545,7 @@
             <field name="name">Zamboanga del Sur</field>
             <field name="province_code">097300000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">090000000</field>
             <field name="region_correspondence">0900000000</field>
@@ -512,6 +556,7 @@
             <field name="name">Zamboanga Sibugay</field>
             <field name="province_code">098300000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">090000000</field>
             <field name="region_correspondence">0900000000</field>
@@ -522,16 +567,139 @@
             <field name="name">Bukidnon</field>
             <field name="province_code">101300000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">100000000</field>
             <field name="region_correspondence">1000000000</field>
             <field name="region_id" ref="32"/>
         </record>
-		<record id="192" model="psgc.province">
+        <record id="159" model="psgc.province">
+            <field name="code_correspondence">1001800000</field>
+            <field name="name">Camiguin</field>
+            <field name="province_code">101800000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">5th</field>
+            <field name="region_code">100000000</field>
+            <field name="region_correspondence">1000000000</field>
+            <field name="region_id" ref="32"/>
+        </record>
+        <record id="162" model="psgc.province">
+            <field name="code_correspondence">1003500000</field>
+            <field name="name">Lanao del Norte</field>
+            <field name="province_code">103500000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">2nd</field>
+            <field name="region_code">100000000</field>
+            <field name="region_correspondence">1000000000</field>
+            <field name="region_id" ref="32"/>
+        </record>
+        <record id="165" model="psgc.province">
+            <field name="code_correspondence">1004200000</field>
+            <field name="name">Misamis Occidental</field>
+            <field name="province_code">104200000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">2nd</field>
+            <field name="region_code">100000000</field>
+            <field name="region_correspondence">1000000000</field>
+            <field name="region_id" ref="32"/>
+        </record>
+        <record id="168" model="psgc.province">
+            <field name="code_correspondence">1004300000</field>
+            <field name="name">Misamis Oriental</field>
+            <field name="province_code">104300000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">100000000</field>
+            <field name="region_correspondence">1000000000</field>
+            <field name="region_id" ref="32"/>
+        </record>
+        <record id="171" model="psgc.province">
+            <field name="code_correspondence">1102300000</field>
+            <field name="name">Davao del Norte</field>
+            <field name="province_code">112300000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">110000000</field>
+            <field name="region_correspondence">1100000000</field>
+            <field name="region_id" ref="35"/>
+        </record>
+        <record id="174" model="psgc.province">
+            <field name="code_correspondence">1102400000</field>
+            <field name="name">Davao del Sur</field>
+            <field name="province_code">112400000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">110000000</field>
+            <field name="region_correspondence">1100000000</field>
+            <field name="region_id" ref="35"/>
+        </record>
+        <record id="177" model="psgc.province">
+            <field name="code_correspondence">1102500000</field>
+            <field name="name">Davao Oriental</field>
+            <field name="province_code">112500000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">110000000</field>
+            <field name="region_correspondence">1100000000</field>
+            <field name="region_id" ref="35"/>
+        </record>
+        <record id="180" model="psgc.province">
+            <field name="code_correspondence">1108200000</field>
+            <field name="name">Davao de Oro</field>
+            <field name="province_code">118200000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name">Compostela Valley</field>
+            <field name="income_classification">1st</field>
+            <field name="region_code">110000000</field>
+            <field name="region_correspondence">1100000000</field>
+            <field name="region_id" ref="35"/>
+        </record>
+        <record id="183" model="psgc.province">
+            <field name="code_correspondence">1108600000</field>
+            <field name="name">Davao Occidental</field>
+            <field name="province_code">118600000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">4th</field>
+            <field name="region_code">110000000</field>
+            <field name="region_correspondence">1100000000</field>
+            <field name="region_id" ref="35"/>
+        </record>
+        <record id="186" model="psgc.province">
+            <field name="code_correspondence">1204700000</field>
+            <field name="name">Cotabato</field>
+            <field name="province_code">124700000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name">North Cotabato</field>
+            <field name="income_classification">1st</field>
+            <field name="region_code">120000000</field>
+            <field name="region_correspondence">1200000000</field>
+            <field name="region_id" ref="38"/>
+        </record>
+        <record id="189" model="psgc.province">
+            <field name="code_correspondence">1206300000</field>
+            <field name="name">South Cotabato</field>
+            <field name="province_code">126300000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">120000000</field>
+            <field name="region_correspondence">1200000000</field>
+            <field name="region_id" ref="38"/>
+        </record>
+        <record id="192" model="psgc.province">
             <field name="code_correspondence">1206500000</field>
             <field name="name">Sultan Kudarat</field>
             <field name="province_code">126500000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">1st</field>
             <field name="region_code">120000000</field>
             <field name="region_correspondence">1200000000</field>
@@ -542,6 +710,7 @@
             <field name="name">Sarangani</field>
             <field name="province_code">128000000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">120000000</field>
             <field name="region_correspondence">1200000000</field>
@@ -552,6 +721,8 @@
             <field name="name">NCR, City of Manila, First District</field>
             <field name="province_code">133900000</field>
             <field name="geo_level">Dist</field>
+            <field name="old_name"/>
+            <field name="income_classification"/>
             <field name="region_code">130000000</field>
             <field name="region_correspondence">1300000000</field>
             <field name="region_id" ref="41"/>
@@ -561,6 +732,8 @@
             <field name="name">NCR, Second District</field>
             <field name="province_code">137400000</field>
             <field name="geo_level">Dist</field>
+            <field name="old_name"/>
+            <field name="income_classification"/>
             <field name="region_code">130000000</field>
             <field name="region_correspondence">1300000000</field>
             <field name="region_id" ref="41"/>
@@ -570,6 +743,8 @@
             <field name="name">NCR, Third District</field>
             <field name="province_code">137500000</field>
             <field name="geo_level">Dist</field>
+            <field name="old_name"/>
+            <field name="income_classification"/>
             <field name="region_code">130000000</field>
             <field name="region_correspondence">1300000000</field>
             <field name="region_id" ref="41"/>
@@ -579,6 +754,8 @@
             <field name="name">NCR, Fourth District</field>
             <field name="province_code">137600000</field>
             <field name="geo_level">Dist</field>
+            <field name="old_name"/>
+            <field name="income_classification"/>
             <field name="region_code">130000000</field>
             <field name="region_correspondence">1300000000</field>
             <field name="region_id" ref="41"/>
@@ -588,6 +765,7 @@
             <field name="name">Abra</field>
             <field name="province_code">140100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">140000000</field>
             <field name="region_correspondence">1400000000</field>
@@ -598,6 +776,7 @@
             <field name="name">Benguet</field>
             <field name="province_code">141100000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">2nd</field>
             <field name="region_code">140000000</field>
             <field name="region_correspondence">1400000000</field>
@@ -608,6 +787,7 @@
             <field name="name">Ifugao</field>
             <field name="province_code">142700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">140000000</field>
             <field name="region_correspondence">1400000000</field>
@@ -618,6 +798,7 @@
             <field name="name">Kalinga</field>
             <field name="province_code">143200000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">3rd</field>
             <field name="region_code">140000000</field>
             <field name="region_correspondence">1400000000</field>
@@ -628,24 +809,154 @@
             <field name="name">Mountain Province</field>
             <field name="province_code">144400000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
             <field name="income_classification">4th</field>
             <field name="region_code">140000000</field>
             <field name="region_correspondence">1400000000</field>
             <field name="region_id" ref="44"/>
+        </record>
+        <record id="225" model="psgc.province">
+            <field name="code_correspondence">1408100000</field>
+            <field name="name">Apayao</field>
+            <field name="province_code">148100000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">3rd</field>
+            <field name="region_code">140000000</field>
+            <field name="region_correspondence">1400000000</field>
+            <field name="region_id" ref="44"/>
+        </record>
+        <record id="228" model="psgc.province">
+            <field name="code_correspondence">1600200000</field>
+            <field name="name">Agusan del Norte</field>
+            <field name="province_code">160200000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">3rd</field>
+            <field name="region_code">160000000</field>
+            <field name="region_correspondence">1600000000</field>
+            <field name="region_id" ref="47"/>
+        </record>
+        <record id="231" model="psgc.province">
+            <field name="code_correspondence">1600300000</field>
+            <field name="name">Agusan del Sur</field>
+            <field name="province_code">160300000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">160000000</field>
+            <field name="region_correspondence">1600000000</field>
+            <field name="region_id" ref="47"/>
+        </record>
+        <record id="234" model="psgc.province">
+            <field name="code_correspondence">1606700000</field>
+            <field name="name">Surigao del Norte</field>
+            <field name="province_code">166700000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">2nd</field>
+            <field name="region_code">160000000</field>
+            <field name="region_correspondence">1600000000</field>
+            <field name="region_id" ref="47"/>
+        </record>
+        <record id="237" model="psgc.province">
+            <field name="code_correspondence">1606800000</field>
+            <field name="name">Surigao del Sur</field>
+            <field name="province_code">166800000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">160000000</field>
+            <field name="region_correspondence">1600000000</field>
+            <field name="region_id" ref="47"/>
+        </record>
+        <record id="240" model="psgc.province">
+            <field name="code_correspondence">1608500000</field>
+            <field name="name">Dinagat Islands</field>
+            <field name="province_code">168500000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">4th</field>
+            <field name="region_code">160000000</field>
+            <field name="region_correspondence">1600000000</field>
+            <field name="region_id" ref="47"/>
+        </record>
+        <record id="243" model="psgc.province">
+            <field name="code_correspondence">1900700000</field>
+            <field name="name">Basilan</field>
+            <field name="province_code">150700000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">3rd</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
+        </record>
+        <record id="246" model="psgc.province">
+            <field name="code_correspondence">1903600000</field>
+            <field name="name">Lanao del Sur</field>
+            <field name="province_code">153600000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
+        </record>
+        <record id="249" model="psgc.province">
+            <field name="code_correspondence">1906600000</field>
+            <field name="name">Sulu</field>
+            <field name="province_code">156600000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">2nd</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
+        </record>
+        <record id="252" model="psgc.province">
+            <field name="code_correspondence">1907000000</field>
+            <field name="name">Tawi-Tawi</field>
+            <field name="province_code">157000000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">3rd</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
+        </record>
+        <record id="255" model="psgc.province">
+            <field name="code_correspondence">1908700000</field>
+            <field name="name">Maguindanao del Norte</field>
+            <field name="province_code">153800000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
+        </record>
+        <record id="258" model="psgc.province">
+            <field name="code_correspondence">1908800000</field>
+            <field name="name">Maguindanao del Sur</field>
+            <field name="province_code">153800000</field>
+            <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification">1st</field>
+            <field name="region_code">150000000</field>
+            <field name="region_correspondence">1900000000</field>
+            <field name="region_id" ref="50"/>
         </record>
         <record id="261" model="psgc.province">
             <field name="code_correspondence">0990100000</field>
             <field name="name">City of Isabela</field>
             <field name="province_code">099700000</field>
             <field name="geo_level">Prov</field>
+            <field name="old_name"/>
+            <field name="income_classification"/>
             <field name="region_code">090000000</field>
             <field name="region_correspondence">0900000000</field>
             <field name="region_id" ref="29"/>
         </record>
     </data>
 </odoo>
-
-
-
-
-
