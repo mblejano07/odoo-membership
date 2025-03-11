@@ -37,8 +37,10 @@ def convert_csv_to_xml(csv_file, xml_file):
                 print(f"🔹 Processing: {row}")
 
             for row in rows:
+                record_id = row.pop("id").strip()  # Remove "id" from data and use it as record id
+
                 record = ET.SubElement(data_element, "record", attrib={
-                    "id": row["id"].strip(),
+                    "id": record_id,
                     "model": "psgc.barangay"
                 })
 
