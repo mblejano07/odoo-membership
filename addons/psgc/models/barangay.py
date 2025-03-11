@@ -12,7 +12,8 @@ class Barangay(models.Model):
     city_class = fields.Char(string='City Class')
     urb_rur = fields.Selection([
         ('U', 'Urban'),
-        ('R', 'Rural')
+        ('R', 'Rural'),
+        ('-', '-')
     ], string='Urban/Rural', default='R')
     city = fields.Char(string='City Code')
     city_correspondence = fields.Char(string='City Correspondence')
