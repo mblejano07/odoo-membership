@@ -9,8 +9,9 @@
     """,
     'author': 'Michael Lejano',
     'company': 'Blackpearl Technology Solutions Corporation',
-    'depends': ['base','contacts','event', 'product','sale'],  # Depends on event and product modules
+    'depends': ['base','contacts','event', 'product','sale','auth_signup'],  # Depends on event and product modules
     'data': [
+        'views/auth_signup.xml',  # Include the custom view
         'views/event_view.xml',  # Include the custom view
         'security/ir.model.access.csv',  # Add the access control file
 
