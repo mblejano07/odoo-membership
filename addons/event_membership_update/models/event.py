@@ -4,9 +4,6 @@ from odoo import models, fields
 class Event(models.Model):
     _inherit = 'event.event'
     
-    # Sample field for deletion later
-    custom_field = fields.Char(string='Custom Field')
-
     # This will create the "Memberships" field that links to multiple membership products
     membership_product_ids = fields.Many2many(
         'product.product',  # Related model
