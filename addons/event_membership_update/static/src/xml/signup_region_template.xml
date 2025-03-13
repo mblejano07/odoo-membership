@@ -1,0 +1,5 @@
+<t t-name="event_membership_update.owl_main_template" xml:space="preserve">
+    <div class="p-4 border">
+        <h3>Region</h3>
+    </div>
+</t>

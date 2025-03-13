@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="auth_signup_inherit_fields" inherit_id="auth_signup.fields">
+        <xpath expr="//div[last()]" position="after">
+            <div id="region_component"></div>
+        </xpath>
+    </template>
+</odoo>
