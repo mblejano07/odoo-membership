@@ -1,0 +1,10 @@
+To save new fields in /web/signup extend the following:
+
+https://github.com/odoo/odoo/blob/c8cd92079a44689b0888314893d13d1466cd4c92/addons/auth_signup/controllers/main.py#L163
+- do_signup function - follow the _prepare_signup_values function
+
+The call started from here: https://github.com/odoo/odoo/blob/c8cd92079a44689b0888314893d13d1466cd4c92/addons/auth_signup/controllers/main.py#L37
+- web_auth_signup function 
+- follow the get_auth_signup_context function: https://github.com/odoo/odoo/blob/c8cd92079a44689b0888314893d13d1466cd4c92/addons/auth_signup/controllers/main.py#L134
+- the constant variable: SIGN_UP_REQUEST_PARAMS needs to be extended to include the new fields you added. 
+- SIGN_UP_REQUEST_PARAMS is defined in: https://github.com/odoo/odoo/blob/c8cd92079a44689b0888314893d13d1466cd4c92/addons/web/controllers/home.py#L25
